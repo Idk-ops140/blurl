@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: cyan;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: cyan;
+}
+
+input, textarea, button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid cyan;
+    background: transparent;
+    color: cyan;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: cyan;
+    color: black;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+}
